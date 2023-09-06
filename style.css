@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(202, 202, 202);
+}
+
+.cabecalho {
+    background-color: #56141c;
+    margin: 0px 200px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-style: bold;
+    font-size: 70px;
+    font-family: Verdana;
+    color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.Descricao {
+    text-align: center;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 25px;     
+}
+ 
+.exib {
+    height: 400px; /* Isso mantém a proporção original da imagem */
+    width: auto; /* Defina o tamanho desejado em pixels */
+    border: 5px solid #000000;
+}
+
+.Fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diferenciais {
+    background-color: #56141c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Ndif{
+    margin: 30px 60px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.dif1 {
+    margin: 30px 60px;
+    font-family: Verdana;
+    color: aliceblue;
+}
+
+.dif2{
+    margin: 30px 60px;
+    font-family: Verdana;
+    color: aliceblue;
+}
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta{
+    width: auto;
+    height: 20px; 
+}
